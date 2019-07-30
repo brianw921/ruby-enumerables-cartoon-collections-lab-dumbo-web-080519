@@ -7,9 +7,11 @@ end
 
 def summon_captain_planet(array)
   # Your code here
+  new_arr
   array.each do |w|
-
+    new_arr << w + "!"
   end
+  new_arr
 end
 
 def long_planeteer_calls# code an argument here
