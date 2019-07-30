@@ -23,4 +23,5 @@ def find_the_cheese(array)
   array.each do |food|
     return food if cheese_types.include?(food)
   end
+  nil
 end
